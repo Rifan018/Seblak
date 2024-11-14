@@ -1,0 +1,323 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(255, 222, 173);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 160px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.namaumkm h1 {
+    margin-right: 600px;
+    font-size: 4rem;
+    font: bold;
+    color: rgb(255, 72, 0);
+    stroke-width: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    background-color: crimson;
+    color: black;
+}
+
+/* Hero */
+#hero {
+    padding: 20px;
+    display: flex;
+    margin: 0;
+    background-color: orange;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+    margin-right: 30px;
+}
+
+.hero-text {
+    margin-right: 170px;
+}
+
+.hero-text h1 {
+    justify-content: space-between;
+    font-size: 4rem;
+    font: bold;
+    color: rgb(95, 51, 0);
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 130px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.pesans {
+    font-size: 2rem;
+    margin-top: 270px;
+    margin-left: 80px;
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.pesans:hover {
+    background-color: crimson;
+    color: black;
+}
+
+/* Produk list */
+#produk {
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+#produk h2 {
+    padding: 20px 0 0 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.produk {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.produk-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.produk img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(36, 36, 36);
+}
+
+/*testimoni*/
+#testimoni {
+    background-color: wheat;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+#testimoni h2 {
+    padding: 20px 0 0 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.testi {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.testi-list {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.testi img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(36, 36, 36);
+}
+
+/* kontak kami*/
+#kontak-kami {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+.Kpesan {
+    font-size: 1.5rem;
+    border: 2px solid black;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+/*footer*/
+footer {
+    background-color: rgb(68, 49, 20);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.medsos {
+    margin-bottom: 5px;
+}
+
+.medsos a img {
+    width: 30px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-height: 1024px) {
+/* HEADER */
+header {
+    background-color: rgb(255, 222, 173);
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 160px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.namaumkm h1 {
+    margin-right: 160px;
+    font-size: 3.2rem;
+    font: bold;
+    color: rgb(255, 72, 0);
+    stroke-width: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+/* Hero */
+.hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+    margin-right: 20px;
+}
+
+.hero-text {
+    margin-right: 170px;
+}
+
+.hero-text h1 {
+    justify-content: space-between;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+/* Produk list */
+.produk img {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(36, 36, 36);
+}
+
+/*testimoni*/
+.testi img {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(36, 36, 36);
+}
+
+/*footer*/
+footer p {
+    font-size: 13px;
+}
+
+.medsos a img {
+    width: 30px;
+    padding-top: 5px;
+}
+
+}
